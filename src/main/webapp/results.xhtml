@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://java.sun.com/jsf/html">
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets">
 
     <h:head>
     	<title>MasterThought Movie Database Results:</title>
@@ -12,9 +12,29 @@
     	<h4>#{movie.name}</h4>
         <ul>
             <li>ImdbID: <a href="#{movie.imdbId}">#{movie.name}</a></li>
-            <li>#{movie.director.name} <img src="#{movie.director.pictureUrl}" alt="#{movie.director.name}"/></li>
-            <li>Genre: #{movie.genre}</li>
-            <li>Soundtrack: "#{movie.soundtrack}"</li>
+            <li>Directed by: #{movie.director.name} <img src="#{movie.director.pictureUrl}" alt="#{movie.director.name}"/>
+                <br />
+                ... who also directed: <br />
+                <ui:repeat value="#{movie.director.movies}" var="directorsMovie">
+                    #{directorsMovie} <br />
+                </ui:repeat>
+            </li>
+            <li> Genres:
+                <ui:repeat value="#{movie.genre}" var="genre">
+                 #{genre}  <br />
+                </ui:repeat>
+            </li>
+            <li> Festivals:
+                <ui:repeat value="#{movie.movieFestivals}" var="festival">
+                 #{festival}  <br />
+                </ui:repeat>
+            </li>
+            <li> Production Companies:
+                <ui:repeat value="#{movie.productionCompanies}" var="prodComp">
+                 #{prodComp}  <br />
+                </ui:repeat>
+            </li>
+
         </ul>
     </h:body>
 </html>

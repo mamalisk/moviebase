@@ -99,7 +99,4 @@ public class MovieDatabase {
         return movie;
     }
 
-    public static void main(String[] args) throws IOException, ParseException {
-        movieInfo("Blade Runner", null);
-    }
 }
