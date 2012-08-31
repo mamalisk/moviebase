@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+    <h:head>
+    	<title>MasterThought Movie Database Results:</title>
+    </h:head>
+    <h:body bgcolor="white">
+    	<h3>MasterThought Movie Database Results are:</h3>
+    	<h4>#{movie.name}</h4>
+        <ul>
+            <li>ImdbID: <a href="#{movie.imdbId}">#{movie.name}</a></li>
+            <li>#{movie.director.name} <img src="#{movie.director.pictureUrl}" alt="#{movie.director.name}"/></li>
+            <li>Genre: #{movie.genre}</li>
+            <li>Soundtrack: "#{movie.soundtrack}"</li>
+        </ul>
+    </h:body>
+</html>
