@@ -99,4 +99,8 @@ public class MovieDatabase {
         return movie;
     }
 
+    public static void main(String[] args){
+        Movie movie = new Movie();
+        movie.setName("Sin City");
+    }
 }

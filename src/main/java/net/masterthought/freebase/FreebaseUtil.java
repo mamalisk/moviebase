@@ -35,7 +35,12 @@ public class FreebaseUtil {
     }
 
     public static JSON get(JSON query){
-        return freebase.mqlread(query).get("result");
+       try{
+           return freebase.mqlread(query).get("result");
+       } catch(com.freebase.api.FreebaseException fe){
+           System.out.println(query);
+       }
+       return null;
     }
 
 }
