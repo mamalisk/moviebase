@@ -19,6 +19,32 @@ body {
     margin-top: 20px;
 }
 
+#results {
+    width: 800px;
+    text-align: left;
+    font-size: 15px;
+    background: red;
+    border-color: #dddddd;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10px;
+    box-shadow: 10px 10px 5px #999999;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#results img{
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border_width: 5px;
+}
+
+#results a {
+    color: #ffd700;
+}
+
 #logo {
     text-align: center;
     margin-left: auto;

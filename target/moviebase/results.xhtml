@@ -6,10 +6,14 @@
 
     <h:head>
     	<title>MasterThought Movie Database Results:</title>
+        <h:outputStylesheet library="default" name="css/main.css" />
     </h:head>
     <h:body bgcolor="white">
-    	<h3>MasterThought Movie Database Results are:</h3>
-    	<h4>#{movie.name}</h4>
+        <div id="logo">
+                <h:graphicImage library="default" name="img/moviebaselogo.png" />
+        </div>
+        <div id="results">
+    	<h4>Results for: #{movie.name}</h4>
         <ul>
             <li>ImdbID: <a href="#{movie.imdbId}">#{movie.name}</a></li>
             <li>Directed by: #{movie.director.name} <img src="#{movie.director.pictureUrl}" alt="#{movie.director.name}"/>
@@ -36,5 +40,6 @@
             </li>
 
         </ul>
+        </div>
     </h:body>
 </html>
