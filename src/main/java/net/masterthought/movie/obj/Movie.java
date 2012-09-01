@@ -24,6 +24,16 @@ public class Movie implements Serializable {
     private List<String> productionCompanies = new ArrayList<String>();
     private String imdbId = null;
 
+    public String getPictureUrl() {
+        return pictureUrl;
+    }
+
+    public void setPictureUrl(String pictureUrl) {
+        this.pictureUrl = pictureUrl;
+    }
+
+    private String pictureUrl = null;
+
     public Director getDirector() {
         return director;
     }

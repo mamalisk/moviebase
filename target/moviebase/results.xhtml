@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets">
 
-    <h:head>
-    	<title>MasterThought Movie Database Results:</title>
-        <h:outputStylesheet library="default" name="css/main.css" />
-    </h:head>
-    <h:body bgcolor="white">
-        <div id="logo">
-                <h:graphicImage library="default" name="img/moviebaselogo.png" />
-        </div>
-        <div id="results">
-    	<h4>Results for: #{movie.name}</h4>
+<h:head>
+    <title>MasterThought Movie Database Results:</title>
+    <h:outputStylesheet library="default" name="css/main.css"/>
+</h:head>
+<h:body bgcolor="white">
+    <div id="logo">
+        <h:graphicImage library="default" name="img/moviebaselogo.png"/>
+    </div>
+    <div id="results">
+        <h4>Results for: #{movie.name}</h4>
+
         <ul>
-            <li>ImdbID: <a href="#{movie.imdbId}">#{movie.name}</a></li>
-            <li>Directed by: #{movie.director.name} <img src="#{movie.director.pictureUrl}" alt="#{movie.director.name}"/>
-                <br />
-                ... who also directed: <br />
+            <li><img src="#{movie.pictureUrl}" alt="#{movie.name}"/> - <a href="#{movie.imdbId}">#{movie.name}</a></li>
+            <li>Directed by: #{movie.director.name} <img src="#{movie.director.pictureUrl}"
+                                                         alt="#{movie.director.name}"/>
+                <br/>
+                ... who also directed: <br/>
                 <ui:repeat value="#{movie.director.movies}" var="directorsMovie">
-                    #{directorsMovie} <br />
+                    "#{directorsMovie}"
                 </ui:repeat>
             </li>
             <li> Genres:
                 <ui:repeat value="#{movie.genre}" var="genre">
-                 #{genre}  <br />
+                    "#{genre}"
                 </ui:repeat>
             </li>
             <li> Festivals:
                 <ui:repeat value="#{movie.movieFestivals}" var="festival">
-                 #{festival}  <br />
+                    "#{festival}"
                 </ui:repeat>
             </li>
             <li> Production Companies:
                 <ui:repeat value="#{movie.productionCompanies}" var="prodComp">
-                 #{prodComp}  <br />
+                    "#{prodComp}"
                 </ui:repeat>
             </li>
-
         </ul>
-        </div>
-    </h:body>
+        <h:form id="search_form">
+            <h:commandButton id="search_btn" class="btn" value="BACK!" action="search"></h:commandButton>
+        </h:form>
+    </div>
+</h:body>
 </html>

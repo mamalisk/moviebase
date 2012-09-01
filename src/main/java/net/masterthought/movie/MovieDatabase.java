@@ -95,12 +95,17 @@ public class MovieDatabase {
         movie.setEditedBy(movieJson.get("edited_by").array());
         movie.setImdbId(movieJson.get("imdb_id").get(0).string().replace("\"", ""));
         movie.setProductionCompanies(movieJson.get("production_companies").array());
+        String pictureUrl = MovieDatabase.imageBaseUrl + movieJson.get("mid").get(0).toString().replace("\\", "");
+        pictureUrl.replaceAll("\"","").replace("\\","");
+        String s = pictureUrl.replaceAll("\"","").replace("\\","");
+        System.out.println(s);
+        movie.setPictureUrl(s);
         movie.setDirector(getDirectorOf(movie.getName()));
         return movie;
     }
 
-    public static void main(String[] args){
-        Movie movie = new Movie();
-        movie.setName("Sin City");
+    public static void main(String[] args) throws IOException, ParseException {
+        Movie movie = movieInfo("Blade Runner", null);
+        System.out.println(movie.getPictureUrl());
     }
 }
