@@ -14,36 +14,48 @@
     </div>
     <div id="results">
         <h4>Results for: #{movie.name}</h4>
+        <h:panelGroup id="results_div" layout="block" rendered="#{movie != null}">
 
         <ul>
-            <li><img src="#{movie.pictureUrl}" alt="#{movie.name}"/> - <a href="#{movie.imdbId}">#{movie.name}</a></li>
-            <li>Directed by: #{movie.director.name} <img src="#{movie.director.pictureUrl}"
+            <h:panelGroup layout="block" rendered="#{movie.imdbId != null}">
+            <li><img src="#{movie.pictureUrl}" alt="#{movie.name}"/> - <a href="#{movie.imdbId}">#{movie.name}</a></li></h:panelGroup>
+            <h:panelGroup layout="block" rendered="#{movie.director.name != null}">
+                <li>Directed by: #{movie.director.name} <img src="#{movie.director.pictureUrl}"
                                                          alt="#{movie.director.name}"/>
+
                 <br/>
                 ... who also directed: <br/>
                 <ui:repeat value="#{movie.director.movies}" var="directorsMovie">
                     "#{directorsMovie}"
                 </ui:repeat>
-            </li>
-            <li> Genres:
-                <ui:repeat value="#{movie.genre}" var="genre">
+                </li>
+            </h:panelGroup>
+
+            <h:panelGroup layout="block" rendered="#{not empty movie.genre}"> Genres:
+            <li><ui:repeat value="#{movie.genre}" var="genre">
                     "#{genre}"
                 </ui:repeat>
             </li>
+            </h:panelGroup>
+            <h:panelGroup layout="block" rendered="#{not empty movie.movieFestivals}">
             <li> Festivals:
                 <ui:repeat value="#{movie.movieFestivals}" var="festival">
                     "#{festival}"
                 </ui:repeat>
             </li>
+            </h:panelGroup>
+            <h:panelGroup layout="block" rendered="#{not empty movie.productionCompanies}">
             <li> Production Companies:
                 <ui:repeat value="#{movie.productionCompanies}" var="prodComp">
                     "#{prodComp}"
                 </ui:repeat>
             </li>
+            </h:panelGroup>
         </ul>
         <h:form id="search_form">
             <h:commandButton id="search_btn" class="btn" value="BACK!" action="search"></h:commandButton>
         </h:form>
+        </h:panelGroup>
     </div>
 </h:body>
 </html>

@@ -105,7 +105,7 @@ public class MovieDatabase {
     }
 
     public static void main(String[] args) throws IOException, ParseException {
-        Movie movie = movieInfo("Blade Runner", null);
+        Movie movie = movieInfo("Lal ladfasdfa dafdsafdsa", null);
         System.out.println(movie.getPictureUrl());
     }
 }
