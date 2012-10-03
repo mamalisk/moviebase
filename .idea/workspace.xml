@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22ca268d-6122-48ed-80c3-125331c54fea" name="Default" comment="" />
+    <list default="true" id="22ca268d-6122-48ed-80c3-125331c54fea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/masterthought/movie/MovieDatabase.class" afterPath="$PROJECT_DIR$/target/classes/net/masterthought/movie/MovieDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/masterthought/movie/obj/Movie.class" afterPath="$PROJECT_DIR$/target/classes/net/masterthought/movie/obj/Movie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/moviebase.war" afterPath="$PROJECT_DIR$/target/moviebase.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/moviebase/WEB-INF/classes/net/masterthought/movie/MovieDatabase.class" afterPath="$PROJECT_DIR$/target/moviebase/WEB-INF/classes/net/masterthought/movie/MovieDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/moviebase/WEB-INF/classes/net/masterthought/movie/obj/Movie.class" afterPath="$PROJECT_DIR$/target/moviebase/WEB-INF/classes/net/masterthought/movie/obj/Movie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Movie.java" afterPath="$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Movie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/default/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/default/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/results.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/results.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/moviebase/resources/default/css/main.css" afterPath="$PROJECT_DIR$/target/moviebase/resources/default/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/moviebase/results.xhtml" afterPath="$PROJECT_DIR$/target/moviebase/results.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-net.masterthought.movie.MovieTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-net.masterthought.movie.MovieTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/net.masterthought.movie.MovieTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/net.masterthought.movie.MovieTest.txt" />
+    </list>
     <ignored path="moviebase.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +35,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java" line="102" class="net.masterthought.movie.MovieDatabase" package="net.masterthought.movie">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/net/masterthought/freebase/FreebaseUtil.java" line="33" class="net.masterthought.freebase.FreebaseUtil" package="net.masterthought.freebase">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -32,7 +48,20 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java" line="107" class="net.masterthought.movie.MovieDatabase" package="net.masterthought.movie">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java" line="87" class="net.masterthought.movie.MovieDatabase" package="net.masterthought.movie">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java" line="78" class="net.masterthought.movie.MovieDatabase" package="net.masterthought.movie">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -89,7 +118,7 @@
       <file leaf-file-name="MovieDatabase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="0" selection-start="3162" selection-end="3162" vertical-scroll-proportion="0.0">
+            <state line="98" column="63" selection-start="3760" selection-end="3760" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,13 +126,13 @@
       </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
             <state />
           </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
@@ -143,8 +172,17 @@
       <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="24" selection-start="2004" selection-end="2012" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="146" column="16" selection-start="3742" selection-end="3742" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#522#530#0" expanded="true" />
+                <element signature="e#589#597#0" expanded="true" />
+                <element signature="e#650#658#0" expanded="true" />
+                <element signature="e#713#721#0" expanded="true" />
+                <element signature="e#849#857#0" expanded="true" />
+                <element signature="e#1091#1099#0" expanded="true" />
+                <element signature="e#1312#1320#0" expanded="true" />
+                <element signature="e#1547#1555#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,7 +190,7 @@
       <file leaf-file-name="search.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="610" selection-end="856" vertical-scroll-proportion="0.0">
+            <state line="23" column="34" selection-start="877" selection-end="877" vertical-scroll-proportion="-13.208333">
               <folding />
             </state>
           </provider>
@@ -161,7 +199,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/default/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+            <state line="75" column="0" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,7 +217,7 @@
       <file leaf-file-name="results.xhtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/results.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="12" selection-start="960" selection-end="960" vertical-scroll-proportion="0.6042654">
+            <state line="61" column="43" selection-start="3083" selection-end="3083" vertical-scroll-proportion="0.43127963">
               <folding />
             </state>
           </provider>
@@ -205,10 +243,10 @@
         <option value="$PROJECT_DIR$/src/main/java/net/masterthought/freebase/FreebaseUtil.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/search.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/default/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/default/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/results.xhtml" />
       </list>
     </option>
@@ -253,8 +291,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="22" />
+    <option name="x" value="127" />
+    <option name="y" value="-940" />
     <option name="width" value="1280" />
     <option name="height" value="878" />
   </component>
@@ -295,6 +333,9 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -349,11 +390,192 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterthought" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterthought" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="obj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moviebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterthought" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -371,9 +593,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -691,7 +913,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="22" width="1280" height="878" extended-state="0" />
+    <frame x="127" y="-940" width="1280" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -710,10 +932,10 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.184765" sideWeight="0.67107004" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18395463" sideWeight="0.67107004" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24797407" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -835,29 +1057,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="546" selection-end="575" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/freebase/FreebaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0" />
+        <state line="15" column="43" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/movie.json">
@@ -865,42 +1075,63 @@
         <state line="0" column="4775" selection-start="4772" selection-end="4775" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="610" selection-end="856" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="85" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/default/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Director.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+        <state line="23" column="55" selection-start="546" selection-end="575" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="34" selection-start="877" selection-end="877" vertical-scroll-proportion="-13.208333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/freebase/FreebaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="24" selection-start="2004" selection-end="2012" vertical-scroll-proportion="0.0">
+        <state line="33" column="0" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/MovieDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="3162" selection-end="3162" vertical-scroll-proportion="0.0">
+        <state line="98" column="63" selection-start="3760" selection-end="3760" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/masterthought/movie/obj/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="16" selection-start="3742" selection-end="3742" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#522#530#0" expanded="true" />
+            <element signature="e#589#597#0" expanded="true" />
+            <element signature="e#650#658#0" expanded="true" />
+            <element signature="e#713#721#0" expanded="true" />
+            <element signature="e#849#857#0" expanded="true" />
+            <element signature="e#1091#1099#0" expanded="true" />
+            <element signature="e#1312#1320#0" expanded="true" />
+            <element signature="e#1547#1555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/default/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/results.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="960" selection-end="960" vertical-scroll-proportion="0.6042654">
+        <state line="61" column="43" selection-start="3083" selection-end="3083" vertical-scroll-proportion="0.43127963">
           <folding />
         </state>
       </provider>

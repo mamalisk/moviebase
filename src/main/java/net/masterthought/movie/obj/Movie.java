@@ -22,7 +22,48 @@ public class Movie implements Serializable {
     private List<String> editedBy = new ArrayList<String>();
     private List<String> soundtrack = new ArrayList<String>();
     private List<String> productionCompanies = new ArrayList<String>();
+    private List<String> soundTracks = new ArrayList<String>();
+
+    public List<String> getNetflixIds() {
+        return netflixIds;
+    }
+
+    public void setNetflixIds(List<String> netflixIds) {
+        this.netflixIds = netflixIds;
+    }
+
+    private List<String> netflixIds = new ArrayList<String>();
+
+    public List<String> getRatings() {
+        return ratings;
+    }
+
+    public void setRatings(List<String> ratings) {
+        this.ratings = ratings;
+    }
+
+    private List<String> ratings = new ArrayList<String>();
+
+    public List<String> getCountries() {
+        return countries;
+    }
+
+    public void setCountries(List<String> countries) {
+        this.countries = countries;
+    }
+
+    private List<String> countries = new ArrayList<String>();
     private String imdbId = null;
+
+    public String getInitialReleaseDate() {
+        return initialReleaseDate;
+    }
+
+    public void setInitialReleaseDate(String initialReleaseDate) {
+        this.initialReleaseDate = initialReleaseDate;
+    }
+
+    private String initialReleaseDate = null;
 
     public String getPictureUrl() {
         return pictureUrl;
@@ -72,6 +113,10 @@ public class Movie implements Serializable {
         this.movieFestivals = new ArrayList<String>();
         this.genre = new ArrayList<String>();
         this.editedBy = new ArrayList<String>();
+        this.initialReleaseDate = null;
+        this.countries = new ArrayList<String>();
+        this.ratings = new ArrayList<String>();
+        this.netflixIds = new ArrayList<String>();
     }
 
 

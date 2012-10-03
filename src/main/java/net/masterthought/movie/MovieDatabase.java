@@ -93,6 +93,11 @@ public class MovieDatabase {
         movie.setGenre(movieJson.get("genre").array());
         movie.setMovieFestivals(movieJson.get("film_festivals").array());
         movie.setEditedBy(movieJson.get("edited_by").array());
+        movie.setCountries(movieJson.get("country").array());
+        movie.setRatings(movieJson.get("rating").array());
+        movie.setNetflixIds(movieJson.get("netflix_id").array());
+        movie.setSoundtrack(movieJson.get("soundtrack").array());
+        movie.setInitialReleaseDate(movieJson.get("initial_release_date").string());
         movie.setImdbId(movieJson.get("imdb_id").get(0).string().replace("\"", ""));
         movie.setProductionCompanies(movieJson.get("production_companies").array());
         String pictureUrl = MovieDatabase.imageBaseUrl + movieJson.get("mid").get(0).toString().replace("\\", "");
@@ -105,7 +110,8 @@ public class MovieDatabase {
     }
 
     public static void main(String[] args) throws IOException, ParseException {
-        Movie movie = movieInfo("Lal ladfasdfa dafdsafdsa", null);
-        System.out.println(movie.getPictureUrl());
+        Movie movie = movieInfo("The Matrix", null);
+//        System.out.println(movie.getPictureUrl());
+        System.out.println(movie.getInitialReleaseDate());
     }
 }
